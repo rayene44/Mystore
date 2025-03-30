@@ -3,6 +3,9 @@ header{
     height: 50px;
     width: 100%;
 }
+body{
+    overflow-x: hidden;
+}
 #svg1{
     height: 20px;
     position: absolute;
@@ -10,6 +13,12 @@ header{
     left: 20px;
     cursor: pointer;
     transition: 1s;
+}
+#b1{
+    position: relative;
+    top: -600px;
+    right: -5000px;
+    z-index: 700;
 }
 #rech::placeholder{
     color: white;
@@ -52,6 +61,12 @@ transform: scale(1.1);
 a{
     text-decoration: none;
     color: white;
+}
+#img1{
+    background-size: cover;
+    width: 100%;
+    margin-right: -500px;
+    
 }
 #a1{
     padding-right: 970%;
@@ -117,6 +132,54 @@ a:hover{
     width: 60%;
     background-color: black;
 }
+#img1{
+width: 100%;
+}
+#b1{
+    background-color: transparent;
+    border: rgb(255, 255, 255) solid 2px;
+    height: 40px;
+    color: white;
+    position: relative;
+    left: 30%;
+    top: 9w0px;
+    cursor: pointer;
+    transition: 2s;
+    left: 1050px;
+
+}
+#b1:focus{
+transform: scale(1.2);
+border: rgb(255, 154, 154) solid 2px;
+}
+#sec1{
+    background-color: black;
+    height: 500px;
+    animation: 2s infinite rayene;
+    z-index: 0;
+}
+#titre1{
+    position: relative;
+    left: 68%;
+    font-size: xx-large;
+    top: -680px;
+    color: white;
+    z-index: 500;
+}
+@keyframes rayene{
+40%{
+    border-bottom: rgb(255, 136, 1) 5px solid;
+}
+50%{
+    border-bottom: rgb(255, 111, 0) 5px solid;
+}
+70%{
+    border-bottom: rgb(255, 111, 0) 5px solid;
+}
+100%{
+    border-bottom: rgb(255, 111, 0) 5px solid;
+}
+}
 #rech{
     position: relative;
     left: 25%;
@@ -146,6 +209,19 @@ a:hover{
         left: 15px;
         position: absolute;
         top: 20px;
+    }
+    #img1{
+        overflow-x: hidden;
+    }
+    #b1{
+        position: relative;
+        top: 0px;
+        left: 30%;
+    }
+    #titre1{
+        position: relative;
+        left: 25%;
+        top: 0px;  
     }
     #svg2{
         display: none;
@@ -182,12 +258,24 @@ a:hover{
     }
     #rech{
         position: relative;
-        left:20px;
-        width: 340px;
+        left:7px;
+        width: 330px;
     }
     #svg6{
-        left: 370px;
+        left: 340px;
         top: -27px;
         position: relative;
     }
+    html{
+        overflow-x: hidden;
+        width: 100%;
+        margin-right: 0px;
+        height: 200%;
+    }
+}
+html{
+    overflow-x: hidden;
+    width: 100%;
+    margin-right: 0px;
+    height: 200%;
 }
