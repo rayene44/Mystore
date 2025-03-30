@@ -3,11 +3,17 @@ function menu(){
     document.getElementById("menu1").style.display="flex"
     document.getElementById("svg5").style.display="flex"
     document.getElementById("body").style.position="fixed"
+    document.getElementById("svg1").style.position="fixed"
+    document.getElementById("svg2").style.position="fixed"
+     document.getElementById("svg3").style.position="fixed"
+      document.getElementById("svg4").style.position="fixed"
+
 }
 function annuler(){
     document.getElementById("svg1").style.display="flex"
     document.getElementById("menu1").style.display="none"
     document.getElementById("svg5").style.display="none"
+    document.getElementById("body").style.position="relative"
 }
 function recherche(){
     document.getElementById("svg1").style.display="none"
@@ -19,7 +25,7 @@ function recherche(){
 }
 function annuler2(){
     document.getElementById("svg1").style.display="flex"
-    document.getElementById("svg2").style.display="none"
+    document.getElementById("svg2").style.display="flex"
     document.getElementById("svg3").style.display="flex"
      document.getElementById("svg4").style.display="flex"
      document.getElementById("rech").style.display="none"
