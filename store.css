@@ -167,6 +167,18 @@ border: rgb(255, 154, 154) solid 2px;
     color: white;
     z-index: 100;
 }
+#collection{
+    position: relative;
+    top: 300px;
+}
+html{
+    height: 700px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#collection{
+    font-size: xx-large;
+    margin-left: 10px;
+}
 @keyframes rayene{
 40%{
     border-bottom: rgb(255, 136, 1) 5px solid;
@@ -307,6 +319,14 @@ border: rgb(255, 154, 154) solid 2px;
         width: 100%;
         margin-right: 0px;
         height: 200%;
+    }
+        #collection{
+        position: relative;
+        top: 70px;
+    }
+    #titre1{
+        left: 15%;
+        position: relative;
     }
 }
 body{
