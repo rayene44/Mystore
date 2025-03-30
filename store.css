@@ -242,7 +242,7 @@ border: rgb(255, 154, 154) solid 2px;
         position: relative;
         display: none;
         width: 100%;
-        z-index: 500px;
+        z-index: 5000;
     }
     #a1{
         position: relative;
@@ -273,7 +273,7 @@ border: rgb(255, 154, 154) solid 2px;
         height: 200%;
     }
 }
-html{
+body{
     overflow-x: hidden;
     width: 100%;
     margin-right: 0px;
