@@ -131,7 +131,8 @@ a:hover{
 }
 #img1{
 width: 100%;
-height: max-content;
+    object-fit: cover;
+image-rendering:crisp-edges;
 }
 #b1{
     background-color: transparent;
