@@ -131,9 +131,9 @@ a:hover{
 }
 #img1{
 width: 100%;
-    object-fit: cover;
+    object-fit: container;
 image-rendering:crisp-edges;
-    height:100%;
+    z-index: 0;
 }
 #b1{
     background-color: transparent;
@@ -146,6 +146,7 @@ image-rendering:crisp-edges;
     cursor: pointer;
     transition: 2s;
     left: 1050px;
+    z-index: 100;
 
 }
 #b1:focus{
@@ -164,7 +165,7 @@ border: rgb(255, 154, 154) solid 2px;
     font-size: xx-large;
     top: -680px;
     color: white;
-    z-index: 500;
+    z-index: 100;
 }
 @keyframes rayene{
 40%{
