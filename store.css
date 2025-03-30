@@ -11,6 +11,9 @@ header{
     cursor: pointer;
     transition: 1s;
 }
+#rech::placeholder{
+    color: white;
+}
 #svg2{
     height: 19px;
     position: absolute;
@@ -114,6 +117,26 @@ a:hover{
     width: 60%;
     background-color: black;
 }
+#rech{
+    position: relative;
+    left: 25%;
+    top: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 700px;
+    display: none;
+    background-color: black;
+    color: white;
+    border: white solid 2px;
+}
+#svg6{
+    position: absolute;
+    top: 22px;
+    left:72%;
+    height: 21px;
+    cursor: pointer;
+    display: none;
+}
 @media screen and (max-width:700px) {
     header{
         height: 50px;
@@ -128,14 +151,14 @@ a:hover{
         display: none;
     }
     #svg3{
-        position: relative;
+        position: absolute;
         left: 89%;
-        top: 15px;
+        top: 20px;
     }
     #svg4{
-        position: relative;
-        left: 70%;
-        top: 15px;
+        position: absolute;
+        left: 75%;
+        top: 20px;
     }
     #menu1{
         height: 2400%;
@@ -156,5 +179,15 @@ a:hover{
         width: 100%;
         padding-right: 335px;
         margin-bottom: -60px;
+    }
+    #rech{
+        position: relative;
+        left:20px;
+        width: 340px;
+    }
+    #svg6{
+        left: 370px;
+        top: -27px;
+        position: relative;
     }
 }
