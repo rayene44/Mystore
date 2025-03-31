@@ -1,4 +1,4 @@
-header{
+#header1{
     background-color: black;
     height: 50px;
     width: 100%;
@@ -6,7 +6,7 @@ header{
 #svg1{
     height: 20px;
     position: absolute;
-    top: 3%;
+    top: 7.4%;
     left: 20px;
     cursor: pointer;
     transition: 1s;
@@ -23,14 +23,14 @@ header{
 #svg2{
     height: 19px;
     position: absolute;
-    top: 3%;
+    top: 7.4%;
     right:9.5%;
     cursor: pointer;
     transition: 1s;
 }
 #svg3{
     position: absolute;
-    top: 3%;
+    top: 7.4%;
     right:5%;
     height: 19px;
     width: auto;
@@ -38,7 +38,7 @@ header{
 }
 #svg4{
     position: absolute;
-    top: 3%;
+    top: 7.4%;
     left:85%;
     height: 19px;
     cursor: pointer;
@@ -46,7 +46,7 @@ header{
 #svg5{
     height: 20px;
     position: absolute;
-    top: 3%;
+    top: 7.4%;
     left:93%;
     cursor: pointer;
     transition: 1s;
@@ -66,35 +66,35 @@ a{
     
 }
 #a1{
-    padding-right: 970%;
+    padding-right: 935%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
 }
 #a2{
     position: relative;
-    padding-right: 965%;
+    padding-right: 930%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
 }
 #a3{
     position: relative;
-    padding-right: 960%;
+    padding-right: 925%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
 }
 #a4{
     position: relative;
-    padding-right: 940%;
+    padding-right: 905%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
 }
 #a5{
     position: relative;
-    padding-right: 950%;
+    padding-right: 913%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
@@ -102,7 +102,7 @@ a{
 }
 #a6{
     position: relative;
-    padding-right: 944%;
+    padding-right: 912%;
     padding-top: 50px;
     padding-bottom: 50px;
     text-wrap: nowrap;
@@ -110,19 +110,19 @@ a{
 }
 #a7{
     position: relative;
-    padding-right: 991%;
+    padding-right: 960%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
 }
-a:hover{
+#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover,#a7:hover{
     background-color: rgb(69, 70, 70);
 }
 
 
 #menu1{
     height: 1495%;
-    top: -20px;
+    top: -32px;
     position: relative;
     display: none;
     z-index: 1000;
@@ -214,17 +214,16 @@ html{
     display: none;
 }
 @media screen and (max-width:700px) {
-    header{
+    #header1{
         height: 50px;
-        width: 100%;
+        width: 100%;    
     }
     body{
         width: 100%;
     }
     #svg1{
-        left: 15px;
-        position: absolute;
-        top: 20px;
+    transform: translateY(0px);
+    transform: translateX(12px);
     }
     #img1{
         overflow-x: hidden;
@@ -240,27 +239,21 @@ html{
         top: 0px;  
     }
     #svg2{
-        display: flex;
-        position:absolute;
-        right: 19%;
-        top: 2.3%;
-        position: fixed;
+transform: translateY(0px);
+transform: translateX(-20px);
     }
     #svg3{
-        position: absolute;
-        right: 5%;
-        top: 20px;
-        position: fixed;
+        transform: translateY(0px);
+        transform: translateX(10px);    
     }
     #svg4{
-        position: absolute;
-        left: 65%;
-        top: 20px;
-        position: fixed;
+        transform: translateY(0px);
+        transform: translateX(-60px);
     }
+
     #menu1{
         height: 2300%;
-        top: -20px;
+        top: -27px;
         position: relative;
         display: none;
         width: 100%;
@@ -320,6 +313,10 @@ html{
         margin-right: 0px;
         height: 200%;
     }
+    #svg5{
+transform: translateX(-20px);
+transform: translateY(-75px);
+    }
         #collection{
         position: relative;
         top: 65px;
@@ -328,10 +325,50 @@ html{
         left: 20%;
         position: relative;
     }
+    #a8{
+        position: relative;
+        right: 30%;
+        font-size: 14px;
+        text-wrap: nowrap;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 }
 body{
     overflow-x: hidden;
     width: 100%;
     margin-right: 0px;
     height: 200%;
+}
+#header2{
+    background-color: rgb(191, 2, 2);
+    padding-bottom: 5px;
+}
+#a8{
+    padding-left: 35%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#a8:focus{
+    text-decoration: underline;
+}
+#svg7{
+    height: 20px;
+    top: 5px;
+    right:-1%;
+    z-index: 0;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+#tex1{
+    text-wrap: nowrap;
+}
+#tex2{
+    text-wrap: nowrap;
+   position: relative;
+   left: -270px;
+   font-size: 15px;
+    transform: translateY(50px);
+}
+#boxsign{
+    display: none;
 }
