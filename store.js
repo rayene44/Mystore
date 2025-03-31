@@ -31,5 +31,8 @@ function annuler2(){
      document.getElementById("rech").style.display="none"
      document.getElementById("svg6").style.display="none"
 }
-function collection(){
-    document.getElementById("body").style.position="relative"}
+function signup(){
+    document.getElementById("box").style.display="none"
+     document.getElementById("boxsign").style.display="flex"
+    
+}
