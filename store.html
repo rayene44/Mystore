@@ -74,11 +74,11 @@
 <style>
     #logo{
         position: absolute;
-        display: flex;
+        z-index: 0;
         animation: transfor 3s infinite;
     }
     @keyframes transfor{
-        100%{transform: rotate(-8deg);}
+        100%{transform: rotate(-4deg);}
     }
 .logo {
     display: flex;
@@ -88,8 +88,10 @@
     text-decoration: none;
     position: relative;
     top: -5px;
-    left: 45%;
+    padding-left: 0px;
+    transform: translateX(80px);
     width: 180px;
+    position: absolute;
 }
 
 .logo-icon {
