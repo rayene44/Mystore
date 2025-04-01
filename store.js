@@ -34,5 +34,11 @@ function annuler2(){
 function signup(){
     document.getElementById("box").style.display="none"
      document.getElementById("boxsign").style.display="flex"
+      document.getElementById("box-email").style.display="flex"
+      document.getElementById("social-icon").style.display="flex"
+
+
+
+
     
 }
