@@ -33,9 +33,12 @@
                             <tr><td><a href="" id="a7">FAQ</a></td></tr>
     </table>
 </div>
-    
-    
-    
+    <!-- Alternative version with bag icon -->
+ <div id="logo">
+    <a href="store.html" class="logo" style="margin-top: 20px;" id="">
+        <div class="logo-text logo-bag">Shop <span>Haven</span></div>
+    </a>
+    </div>
     </header>
     <div id="box">
     <section id="section1">
@@ -66,6 +69,62 @@
 
 </div>
 
-
 </body>
 </html>
+<style>
+    #logo{
+        position: absolute;
+        display: flex;
+        animation: transfor 3s infinite;
+    }
+    @keyframes transfor{
+        100%{transform: rotate(-8deg);}
+    }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+    left: 45%;
+    width: 180px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    background: #4a6cf7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+}
+
+.logo-text span {
+    color: #4a6cf7;
+}
+
+/* Optional: Animated hover effect */
+.logo:hover .logo-icon {
+    transform: rotate(-10deg);
+    transition: transform 0.3s ease;
+}
+
+/* Optional: Add a shopping bag icon (using Unicode) */
+.logo-bag::before {
+    margin-right: 8px;
+    font-size: 20px;
+}
+</style>
