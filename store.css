@@ -52,9 +52,6 @@
     transition: 1s;
     display: none;
 }
-#svg1:hover,#svg2:hover,#svg3:hover,#svg4:hover{
-transform: scale(1.1);
-}
 a{
     text-decoration: none;
     color: white;
@@ -331,6 +328,48 @@ transform: translateY(-75px);
         font-size: 14px;
         text-wrap: nowrap;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #box-email{
+        border:rgb(199, 189, 189) solid 0.1px ;
+        display: none;
+        height: 150px;
+        transform: translateY(35px);
+        width: 95%;
+    }
+    #tex3{
+        text-wrap: nowrap;
+        padding-left: 15%;
+    }
+    #email{
+        transform: translateX(10px);
+        transform: translateY(50px);
+        height: 35px;
+        position: relative;
+        right: 50%;
+        width: 150px;
+    }
+    #svg8{
+        height: 19px;
+        transform: translateX(150px);
+    }
+    #svg9{
+        height: 19px;
+        transform: translateX(170px);
+    }
+    #social-icon{
+        display: none;
+    }
+    #svg10{
+        height: 17px;
+        position: relative;
+        left: 180px;
+        top: -66px;
+        padding: 9px;
+        padding-top: 13px;
+        cursor: pointer;
+    }
+    #svg10:focus{
+        background-color: rgb(197, 197, 197);
     }
 }
 body{
