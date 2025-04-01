@@ -22,6 +22,8 @@ function recherche(){
      document.getElementById("svg4").style.display="none"
      document.getElementById("rech").style.display="flex"
      document.getElementById("svg6").style.display="flex"
+     document.getElementById("logo").style.display="none"
+
 }
 function annuler2(){
     document.getElementById("svg1").style.display="flex"
@@ -30,12 +32,17 @@ function annuler2(){
      document.getElementById("svg4").style.display="flex"
      document.getElementById("rech").style.display="none"
      document.getElementById("svg6").style.display="none"
+     document.getElementById("logo").style.display="flex"
+
 }
 function signup(){
     document.getElementById("box").style.display="none"
      document.getElementById("boxsign").style.display="flex"
       document.getElementById("box-email").style.display="flex"
       document.getElementById("social-icon").style.display="flex"
+      document.getElementById("logo").style.display="flex"
+
+      
 
 
 
