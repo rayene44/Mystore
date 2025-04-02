@@ -3,6 +3,15 @@
     height: 50px;
     width: 100%;
 }
+html{
+    background-color: rgb(191, 2, 2);
+    width: auto;
+}
+body{
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+}
 #svg1{
     height: 20px;
     position: absolute;
