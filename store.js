@@ -3,13 +3,13 @@ function menu(){
     document.getElementById("menu1").style.display="flex"
     document.getElementById("svg5").style.display="flex"
     document.getElementById("body").style.position="fixed"
-    document.getElementById("svg1").style.position="fixed"
-    document.getElementById("svg2").style.position="fixed"
-     document.getElementById("svg3").style.position="fixed"
-      document.getElementById("svg4").style.position="fixed"
+        document.getElementById("svg2").style.display="none"
+    document.getElementById("svg3").style.display="none"
 
 }
 function annuler(){
+          document.getElementById("svg2").style.display="flex"
+    document.getElementById("svg3").style.display="flex"
     document.getElementById("svg1").style.display="flex"
     document.getElementById("menu1").style.display="none"
     document.getElementById("svg5").style.display="none"
