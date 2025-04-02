@@ -54,6 +54,7 @@ function product(){
     document.getElementById("collection").style.display="none" 
     document.getElementById("article1").style.display="none" 
     document.getElementById("article2").style.display="none" 
+        document.getElementById("article3").style.display="none"
     document.getElementById("article-none").style.display="flex" 
 
 
@@ -64,6 +65,7 @@ function product2(){
     document.getElementById("section1").style.display="none" 
     document.getElementById("collection").style.display="none" 
     document.getElementById("article2").style.display="none"
+    document.getElementById("article3").style.display="none"
     document.getElementById("article1").style.display="none" 
     document.getElementById("article-none2").style.display="flex" 
 
@@ -76,11 +78,6 @@ function product3(){
     document.getElementById("collection").style.display="none" 
     document.getElementById("article2").style.display="none"
     document.getElementById("article3").style.display="none"
-
     document.getElementById("article1").style.display="none" 
     document.getElementById("article-none3").style.display="flex" 
-
-
- 
-
 }
