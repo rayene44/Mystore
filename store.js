@@ -42,10 +42,20 @@ function signup(){
       document.getElementById("social-icon").style.display="flex"
       document.getElementById("logo").style.display="flex"
 
-      
+      document.getElementById("article1").style.display="none" 
 
 
 
 
     
+}
+function product(){
+    document.getElementById("section1").style.display="none" 
+    document.getElementById("collection").style.display="none" 
+    document.getElementById("article1").style.display="none" 
+    document.getElementById("article-none").style.display="flex" 
+
+
+ 
+
 }
