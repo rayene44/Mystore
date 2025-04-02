@@ -43,6 +43,8 @@ function signup(){
       document.getElementById("logo").style.display="flex"
 
       document.getElementById("article1").style.display="none" 
+          document.getElementById("list1").style.display="none" 
+
 
 
 
