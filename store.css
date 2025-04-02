@@ -485,7 +485,7 @@ color: white;
     /*product2------------------------------------------------------------------------------*/
     #article2{
         position: relative;
-        left: 160px;
+        left: 180px;
         top: -115px;
     }
     #article-none2{
@@ -495,17 +495,19 @@ color: white;
         /*product3------------------------------------------------------------------------------*/
         #article3{
             position: relative;
-            left: 315px;
+            left: 355px;
             top: -300px;
         }
         #article-none3{
             display: none;
         }
         /*--------------------------------------------------------------------------------------*/
-        #list1{
-            overflow-x:auto;
-        }
-    footer{
+    #list1{
+    overflow-x:auto ; 
+    overflow-y: hidden;
+    height: 311px;
+    }
+            footer{
         border-top: rgb(141, 139, 139) solid 1px;
         height: 200px;
         width: 100%;
